@@ -6,9 +6,13 @@ This is a desktop application for windows built in C++ using the third party lib
 ## Capabilities:
 
 A backend MySQL database with a table of karaoke songs with columns for artist, song, and an MP4 file location. 
+
 Decodes audio and video frames of the MP4s of available songs using ffmpeg.
+
 Plays video in a window created with glfw (OpenGL) simlutaneously with audio using PortAudio.
+
 Has a menu system that moves between a main menu, song selection, song results, and song streaming.
+
 Visualized text entry for the user when searching for songs.
 
 ## Program flow:
