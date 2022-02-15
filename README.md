@@ -13,7 +13,5 @@ Visualized text entry for the user when searching for songs.
 
 Program flow:
 
-Initially a window is created asking the user to enter song search (but pressing the return key), after that the user can type a song name to query (which is finished by pressing 
-the return key again), then the entry is queried in the MySQL table and the results are printed in the window to the user. After selecting a song to play the song's MP4 file 
-location is used to decode the audio and video frames of the file, then the video frames are rendered and audio frames are played simultaneously for the karaoke experience. 
-After the song finishes it will switch back to the song search menu and wait for another user submitted search.
+Initially a window is created and asks the user to enter song search mode (but pressing the return key), after that the user can type a song name to query (which is finished 
+by pressing the return key again), then the entry is queried in the MySQL table and the results are printed in the window to the user. After selecting a song to play the song's MP4 file location is used to decode the audio and video frames of the file, then the video frames are rendered and audio frames are played simultaneously for the karaoke experience. After the song finishes it will switch back to the song search menu and wait for another user submitted search.
