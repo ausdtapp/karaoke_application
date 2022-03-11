@@ -2,6 +2,7 @@
 Repository for karaoke machine application.
 
 This is a desktop application for windows built in C++ using the third party libraries glfw, ffmpeg, PortAudio, the MySQL xdev api.
+For a short demo watch the "Karaoke_Demo" file!
 
 ## Capabilities:
 
